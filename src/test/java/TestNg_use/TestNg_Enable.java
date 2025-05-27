@@ -11,7 +11,7 @@ public class TestNg_Enable {
 		Reporter.log("Login test script execute successfully",true);
 	}
 
-	@Test(priority=2)
+	@Test(priority=-2)
 	public void register()
 	{
 		Reporter.log("Register test script execute successfully",true);

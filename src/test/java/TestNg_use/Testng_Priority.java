@@ -4,7 +4,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Testng_Priority {
-	@Test(priority=-3)
+	@Test(priority=-2)
 	public void login()
 	{
 		Reporter.log("Login test script should be executed successfully", true);
